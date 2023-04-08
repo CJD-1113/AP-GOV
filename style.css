@@ -1,3 +1,11 @@
 .nav-bar {
     background-color: red;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.nav-list a:hover {
+    background-color: rgba(255, 0, 0, 0.359);
 }
