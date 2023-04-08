@@ -1,28 +1,27 @@
-.nav-bar {
-    background-color: red;
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline;
-    font-size: 12px;
-} 
-li {
-    float: left;
-}
+    overflow: hidden;
+    background-color: #333;
+  }
   
-li a {
+  li {
+    float: left;
+  }
+  
+  li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+  }
   
-  /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
   }
-
-li a:hover {
-    background-color: rgba(255, 0, 0, 0.323);
-}
+  
+  .active {
+    background-color: #112;
+  }
