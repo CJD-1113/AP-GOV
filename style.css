@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     display: inline;
+    font-size: 12px;
 } 
 li {
     float: left;
