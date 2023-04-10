@@ -29,3 +29,7 @@
   ul {
     list-style: none;
   }
+
+  .indentedList {
+    list-style-type: disc;
+  }
