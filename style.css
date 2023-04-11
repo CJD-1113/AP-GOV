@@ -34,10 +34,9 @@ ul {
     list-style-type: disc;
   }
 
-/* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: green;
-  color: #444;
+  background-color: #777;
+  color: white;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -47,16 +46,27 @@ ul {
   font-size: 15px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: rgb(47, 63, 47);
+  background-color: #555;
 }
 
-/* Style the collapsible content. Note: hidden by default */
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
 .content {
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: rgba(0, 128, 0, 0.44);
+  background-color: #f1f1f1;
 }
+
